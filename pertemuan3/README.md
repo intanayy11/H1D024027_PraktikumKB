@@ -166,7 +166,7 @@ Sistem fuzzy untuk mengukur tingkat kepuasan masyarakat terhadap pelayanan publi
 
 ## Membership Functions
 
-### Input — Semua Variabel Input [0 – 100]
+### Input : Semua Variabel Input [0 – 100]
 
 Keempat variabel input menggunakan pola membership function yang sama:
 
@@ -176,7 +176,7 @@ Keempat variabel input menggunakan pola membership function yang sama:
 | cukup_memuaskan | trimf | [60, 75, 90] |
 | memuaskan | trapmf | [75, 90, 100, 100] |
 
-### Output — Kepuasan Pelayanan [0 – 400]
+### Output : Kepuasan Pelayanan [0 – 400]
 
 | Himpunan | Tipe | Parameter |
 |---|---|---|
@@ -227,7 +227,7 @@ Sistem menggunakan **81 aturan** — kombinasi lengkap dari 3 himpunan × 4 vari
 | Kemampuan Petugas | 50 | Tidak Memuaskan |
 | Ketersediaan Sarpras | 90 | Memuaskan |
 
-Beberapa aturan aktif secara parsial; hasil akhir ditentukan melalui defuzzifikasi centroid dari agregasi seluruh output yang aktif.
+Beberapa aturan aktif secara parsial, hasil akhir ditentukan melalui defuzzifikasi centroid dari agregasi seluruh output yang aktif.
 
 ## Referensi & Metode
 
