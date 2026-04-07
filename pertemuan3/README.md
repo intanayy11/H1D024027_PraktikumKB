@@ -1,4 +1,4 @@
-# Sistem Inferensi Fuzzy — Mamdani
+# Sistem Inferensi Fuzzy -Mamdani
 **Implementasi Logika Fuzzy dengan Python & scikit-fuzzy**
 
 ---
@@ -46,7 +46,7 @@ python fuzzy_pelayanan_masyarakat.py
 
 ---
 
-# Studi Kasus 1 — Rekomendasi Stok Makanan Toko Hewan
+# Studi Kasus 1 (Rekomendasi Stok Makanan Toko Hewan)
 
 ## Deskripsi
 
@@ -237,7 +237,7 @@ Beberapa aturan aktif secara parsial; hasil akhir ditentukan melalui defuzzifika
 | Defuzzifikasi | Centroid of Area |
 | Operator Rule | AND (minimum) |
 | Aggregasi | Maximum |
-| Jumlah Rules | 81 aturan (3⁴ kombinasi lengkap) |
+| Jumlah Rules | 81 aturan|
 
 ---
 
@@ -251,5 +251,3 @@ Beberapa aturan aktif secara parsial; hasil akhir ditentukan melalui defuzzifika
 ```
 
 ---
-
-*Implementasi Logika Fuzzy Metode Mamdani — Python & scikit-fuzzy*
