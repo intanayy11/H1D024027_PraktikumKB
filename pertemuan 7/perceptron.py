@@ -22,8 +22,7 @@ class Perceptron:
     def plot_decision_boundary(self, X, t, epoch):
 
         # Membuat titik data input
-        plt.scatter(X[:, 0], X[:, 1], c=t.ravel(), marker='o',
-                    edgecolors='k', cmap=plt.cm.RdYlBu)
+        plt.scatter(X[:, 0], X[:, 1], c=t.ravel(), marker='o', edgecolors='k', cmap=plt.cm.RdYlBu)
 
         # Menentukan limit tampilan bidang grafik
         x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
@@ -74,8 +73,7 @@ class Perceptron:
                     # Periksa input dengan model Perceptron
                     y_pred = self.predict(xi)
 
-                    # Periksa apakah output sesuai target, jika iya maka
-                    error = 0
+                    # Hitung error
                     error = np.append(error, target - y_pred)
 
                     # Modifikasi bobot dengan Delta Rule, jika error = 0 maka bobot tetap
